@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="404dp"
+        android:layout_gravity="center"
+        android:src="@drawable/duberflyer"
+        tools:background="@android:color/black"
+        tools:layout_marginTop="8dp"
+        tools:padding="8dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:text="SIGN IN"
+        android:onClick="@+id/signin"
+        tools:layout_width="match_parent"
+        tools:textColor="@android:color/white"
+        tools:textSize="20sp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:isScrollContainer="false"
+        android:text="SIGN UP"
+        tools:layout_marginRight="8dp"
+        tools:textColor="@android:color/white"
+        tools:textSize="20sp" />
+
+
+</LinearLayout>
+
