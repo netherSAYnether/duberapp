@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">DuberTest</string>
+    <string name="app_name">Duber</string>
+    <string name="smoker_login">Sign up</string>
+    <string name="phone_hint">PHONE</string>
+    <string name="header_1">Get smoking with Duber</string>
+    <string name="header_2">Get growing with Duber</string>
+    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+    <string name="signed_in">Signed in</string>
+    <!-- Strings related to login -->
+    <string name="email_hint">E-mail address</string>
+    <string name="prompt_password">Create password</string>
+    <string name="sign_up">Join DUBER</string>
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
 </resources>
